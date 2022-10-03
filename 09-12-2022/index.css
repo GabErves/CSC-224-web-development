@@ -1,0 +1,16 @@
+body{
+    background-color: ivory;
+    font-family: 'Prata', serif;
+    color: rgb(93, 43, 8);
+    
+}
+table, th, td {
+    border: 1px solid;
+    width: 50%;
+    height: 50%;
+
+  }
+  a {
+    color: hotpink;
+    font-size: 70px;
+  }

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+
+</head>
+<body>
+    <form method="get">
+        <fieldset>
+            <legend>Login Info</legend>
+            <p>
+                <label for="name">Login:</label>
+                <input 
+                id="login" 
+                type="text" 
+                name="login-name"
+                placeholder="Enter your login"
+                value=""
+                required>
+            </p>
+            <p>
+                <label for="password">Password:</label>
+                <input type="password"  placeholder="Enter your password" id="password" name="password">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Pets</legend>
+            <p>
+                <input type="checkbox" name="dog"  id="dog">
+                <label for="dog">Dog</label>
+            </p>
+            <p>
+                <input type="checkbox" name="fish"  id="fish">
+                <label >Fish</label>
+            </p>
+        </fieldset>
+        <p>Favorite Band</p>
+        <p>
+            <input type="radio" name="favorite-band" value="sublime" id="sublime">
+            <label for="sublime">Sublime</label>
+        </p>
+        <p>
+            <input type="radio" name="favorite-band" value="alc" id="alc">
+            <label for="alc">Alice in Chains</label>
+        </p>
+        <p>
+            <input type="radio" name="favorite-band" value="nirvana" id="nirvana">
+            <label for="nirvana">Nirvana</label>
+        </p>
+        <p>
+            <label for="the-date">Date</label>
+            <input type="date" name="the-date" id="the-date">
+        </p>
+            <p>
+
+                <input type ="submit">
+                <input type ="reset">
+
+            </p>
+           
+        
+
+    </form>
+    
+</body>
+</html>
