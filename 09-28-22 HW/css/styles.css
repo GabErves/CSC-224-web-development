@@ -8,9 +8,6 @@ a{
 
 }
 
-span{
-    font-style: italic;
-}
 body{
    
     background-image: url("https://wallpapercave.com/wp/wp6446358.jpg");
@@ -42,6 +39,7 @@ header{
     padding-right: 20px;
 }
 span:not(.am){
-    font-style:normal;
+    font-style:italic;
 
 }
+/* I found this solution using this source: https://developer.mozilla.org/en-US/docs/Web/CSS/:not */
