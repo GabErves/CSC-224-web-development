@@ -25,10 +25,11 @@ footer ul:last-child li:first-child{
 footer ul:last-child li:last-child{
     font-weight: bold;
 }
-p:nth-child(2){
-    text-decoration: underline;
-}
 
+p:nth-last-child(5) {
+    text-decoration: underline;
+  }
+/* Source: https://css-tricks.com/almanac/selectors/n/nth-last-child/ */
 header nav ul:first-child li{
     display: inline;
     padding-right: 20px;
@@ -43,3 +44,7 @@ span:not(.am){
 
 }
 /* I found this solution using this source: https://developer.mozilla.org/en-US/docs/Web/CSS/:not */
+
+p:nth-last-child(5) {
+    text-decoration: underline;
+  }
