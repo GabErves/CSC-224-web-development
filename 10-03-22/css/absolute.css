@@ -1,0 +1,19 @@
+body{
+    margin:0;
+}
+.wrapper{
+    background-color: red;
+    height: 100vh;
+}
+p{
+    margin: 0;
+}
+
+img{
+    position: absolute;
+    /* top:0;
+    left:0; */
+    right:50;
+    transform: translate(50%,50%);
+
+}

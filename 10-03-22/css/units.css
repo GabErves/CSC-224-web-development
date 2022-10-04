@@ -1,0 +1,13 @@
+.pixel-wrapper{
+    width:600px;
+
+}
+.relative-wrapper{
+    width: 75%;
+    background: #CCC;
+    padding: 20px;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+
+}
