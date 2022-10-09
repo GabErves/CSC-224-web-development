@@ -1,35 +1,6 @@
-img{
-    width: 250px;
-    height: 250px;
-}
-h5{
-    font-size: larger;
-}
-h1{
-    text-align: center;
-}
-
-
 body{
     background: rgb(199,70,247);
 background: radial-gradient(circle, rgba(199,70,247,1) 0%, rgba(255,161,161,1) 100%);
-}
-html{
-    scroll-behavior: smooth;
-}
-.relative-wrapper{
-    width: 350px;
-    height: 350px;
-    background: white;
-    padding: 20px;
-    font-family: sans-serif;
-    margin-left: 80px;
-    margin-right: 0;
-    padding-bottom: 0px;
-    margin-top: 20px;
-    padding-left: 20px;
-    display:  inline-grid;
-
 }
 .topnav {
     background-color: rgb(198, 151, 226);
@@ -55,11 +26,9 @@ html{
     background-color: #ff08b9;
     color: white;
   }
-  .staud{
-    width: 200px;
-    height: 250px;
-
-  }
   .topnav-right {
     float: right;
   }
+  h1{
+    text-align: center;
+}

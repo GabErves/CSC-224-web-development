@@ -80,3 +80,6 @@ html{
     height: 250px;
 
 }
+.topnav-right {
+  float: right;
+}
