@@ -8,20 +8,19 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="topnav">
-        <a class="active" href="index.html">Home</a>
+    <div class="nav">
+        <a class="home" href="index.html">Home</a>
         <a href="shoes.html">Shoes</a>
         <a href="bags.html">Bags</a>
         <a href="clothes.html">Clothes</a>
         <!-- <a href="clothes.html">Makeup and Skincare</a>
         <a href="clothes.html">Home Decor and Furniture</a> -->
-        <div class="topnav-right">
+        <div class="navright">
             <a href="contact.html">Contact Me!</a>
             <a href="donations.html">Donations</a>
           </div>
 
       </div>
-
       <h1>Contact Me!</h1>
 
       <form method="get">
@@ -33,21 +32,33 @@
             </p>
             <p>
                 <label for="name">Your Last Name:</label>
-                <input   placeholder="Enter your last name" type="text" id="name" name="name">
+                <input   placeholder="Enter your last name" type="text" id="lname" name="lname">
             </p>
             <p>
-                <label for="username">Your Email:</label>
-                <input   placeholder="Enter your email" type="text" id="username" name="username">
+                <label for="email">Your Email:</label>
+                <input   placeholder="Enter your email" type="text" id="email" name="email">
             </p>
             <p>
-                <label  for="password">Phone Number:</label>
-                <input   placeholder="Enter your phone number" type="password" id="password" name="password">
+                <label  for="phone">Phone Number:</label>
+                <input   placeholder="Enter your phone number" type="tel" id="phone" name="phone">
             </p>
             <p>
-                <label for="password">Message:</label>
-                <textarea  placeholder="Enter your message" id="w3review" name="w3review" rows="4" cols="50">
-        </textarea>
+                <label for="message">Message:</label>
+                <textarea id="message" rows="4" cols="50" name="comment" >
+                </textarea>
             </p>
+            <p>
+                <label>Would you like to sign up for updates?:</label><br>
+                <select name="donate" id="donate" required>
+                  <option value="" selected disabled>--Select--</option>
+                  <option value="yes">Yes</option>
+                  <option value="no">No</option>
+                  <option value="notsure">Not Sure</option>
+                  
+                </select>
+            </p>
+            
+
             
             <p>
                 <input type ="submit">
