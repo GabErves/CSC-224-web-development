@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .wrapper {
+    width: 720px;
+    margin: 0 auto;
+  }
+  
+  .inner {
+    display: flex;
+    border: 5px solid #ccc;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    border: 2px solid #490A3D;
+    border-radius:5px;
+    background-color: #BD1550;
+    color: #fff;
+  
+  }
+  
+  
+  .card h2 {
+    background-color: #490A3D;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .card p {
+    padding: 10px;
+  }
+  

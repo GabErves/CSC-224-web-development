@@ -1,0 +1,27 @@
+/* body{
+    background-color: blue;
+} */
+
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* justify-content: space-between; */
+    justify-content: space-between;
+   
+   
+}
+.child{
+    padding: 10px;
+    background-color: blue;
+    color:ivory;
+    margin: 5px;
+}
+
+.child:nth-child(1){
+    background-color: gold;
+    color: black;
+}
