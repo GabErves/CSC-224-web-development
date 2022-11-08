@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link href="css/styles.css" rel="stylesheet">
   </head>
   <body>
@@ -48,25 +48,44 @@
             We are offering takeout. Please use coupon <b>TAKEOUT</b> for 15% off of your first order.
           </div>
 
-          <div class="container ">
-            <div class="row mt-2 align-items-center justify-content-center">
-                <img src="https://csc225.matgargano.com/app/uploads/2020/10/takeout.jpg" class="col p-3 food">
+          
+
+          <div class="container">
+            <div class="row">
+                <div class="col card mt-5" style="width: 18rem;">
+                    <img class="card-img-top" src="https://csc225.matgargano.com/app/uploads/2020/10/takeout.jpg" alt="red maple leaf">
+                    <div class="card-body">
+                      <h3 class="card-title text-center">Takeout</h3>
+                      
+                    </div>
+                </div>
+
+            
+              <div class="col card mt-5" style="width: 18rem;">
+                <img class="card-img-top" src="https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fcsc225.matgargano.com%2Fapp%2Fuploads%2F2020%2F10%2Fcatering.jpg" alt="red background black leaf">
+                <div class="card-body">
+                  <h3 class="card-title text-center">Catering</h3>
                 
                   
-                    <h3 class="col px-3 takeout">Takeout</h3>
-        
-                <img src="https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fcsc225.matgargano.com%2Fapp%2Fuploads%2F2020%2F10%2Fcatering.jpg" class="col p-3 pasta">
-                <h3 class="col px-3 py-5 catering">Catering</h3>
-
-
-                
-                
-
-                
-        
-            </div>
-            
+                </div>
           </div>
+          <div class="col card mt-5" style="width: 18rem;">
+            <form>
+                <div class="form-group mt-5 margin">
+                    <h5>Sign up for our mailing list to get weekly coupons</h5>
+                    <input type="password" class="form-control" id="email">
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-dark mt-3 text-center mb-5 text">Submit</button>
+                </div>
+                 
+            </form>
+
+            
+              
+            </div>
+          </div>
+        </div>
 
           
 
@@ -74,9 +93,10 @@
        
 
 
-        <div class="bg-dark text-center py-5 w-100">
-            <div class="text-white">Copyright 2021<i class="fa-solid fa-pizza-slice"></i></div>
-        </div>
+        <footer class="bg-dark text-center py-5 p-5 w-100">
+            <h5 class="text-white">Copyright 2021<i class="fa-solid fa-pizza-slice"></i></h5>
+        </footer>
+
         
 
 
