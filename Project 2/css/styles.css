@@ -17,6 +17,7 @@
     left:-1.1px; 
    height: 200px;
    width: 600px;
+   font-family: 'Quicksand', sans-serif;
     
 }
 .bg-nav{
@@ -27,4 +28,9 @@
     width:640px;
     height:360px;
     margin: auto;
+  }
+
+  .navbar{
+    font-family: 'Quicksand', sans-serif;
+    
   }
