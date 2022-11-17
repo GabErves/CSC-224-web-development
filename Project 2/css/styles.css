@@ -67,11 +67,8 @@
     font-family: 'Cormorant Garamond', serif;
   }
 
-  .hero2{
-    background-image: url(../images/autumn.webp);
-    width: 100%;
-    margin-top: 20px;
-
-
+  .title{
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
 
   }
