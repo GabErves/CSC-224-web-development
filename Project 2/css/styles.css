@@ -25,12 +25,30 @@
 
 }
 .carousel {
-    width:640px;
-    height:360px;
+    width:100%;
+    height:600px;
     margin: auto;
+    border-radius: 0px 0px 0px 0px;
+    overflow: hidden;   
   }
 
   .navbar{
     font-family: 'Quicksand', sans-serif;
     
+  }
+
+.font{
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  .extend{
+    width: 100%;
+    border-radius: 55px 55px 55px 55px;
+    overflow: hidden;   
+    height: 60px;
+    top: 50%;
+    
+  }
+  .padding{
+    margin-top: 20px;
   }
