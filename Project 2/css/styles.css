@@ -52,3 +52,17 @@
   .padding{
     margin-top: 20px;
   }
+  .border{
+    border: none;
+  }
+  .image{
+    height: 500px;
+  }
+  img{
+    width: 100%;
+    margin-top: 20px;
+
+  }
+  h5{
+    font-family: 'Quicksand', sans-serif;
+  }
