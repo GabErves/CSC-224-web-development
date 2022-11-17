@@ -1,5 +1,5 @@
 .hero{
-    background-image: url(../images/jewelry.jpeg);
+    background-image: url(../images/womanjewels.webp);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -21,7 +21,7 @@
     
 }
 .bg-nav{
-   background-color: #b19cd9;
+   background-color: #967969	;
 
 }
 .carousel {
