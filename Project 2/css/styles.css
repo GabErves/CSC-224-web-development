@@ -38,7 +38,8 @@
   }
 
 .font{
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Cormorant Garamond', serif !important;
+    
   }
 
   .extend{
@@ -72,3 +73,20 @@
     font-family: 'Cormorant Garamond', serif;
 
   }
+.end{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    z-index: 1;
+}
+.pad{
+    margin-right: 120px;
+}
+.btn{
+    color:white !important;
+    text-decoration: none;
+
+}
