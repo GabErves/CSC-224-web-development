@@ -90,3 +90,32 @@
     text-decoration: none;
 
 }
+.lg{
+    font-size: 25px;
+    
+}
+.about{
+    position: absolute;
+    top: 50%;
+    right: 70px;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    z-index: 1;
+
+}
+.card-img-top{
+    width:100%;
+    height:auto;
+  }
+  @media screen and (max-width:768px) {
+    img {
+        width:100%;
+    }
+}
+@media screen and (max-width:768px){
+    .row{
+        flex-direction: column;
+        padding-left: 40px;
+    }
+  }
