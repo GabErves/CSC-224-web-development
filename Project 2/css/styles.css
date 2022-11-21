@@ -155,4 +155,13 @@
     }
     }
 
-    
+    .card {
+        display:inline-block;
+    }
+
+    .bttn{
+        margin-top: 20px;
+    }
+    .padd{
+        margin-top: 20px;
+    }
