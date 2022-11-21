@@ -108,7 +108,7 @@
     width:100%;
     height:auto;
   }
-  @media screen and (max-width:768px) {
+  /* @media screen and (max-width:768px) {
     img {
         width:100%;
     }
@@ -117,8 +117,9 @@
     .row{
         flex-direction: column;
         padding-left: 40px;
+        align-items: center !important;
     }
-  }
+  } */
   .button{
     color:white !important;
     text-decoration: none;
@@ -135,3 +136,23 @@
     z-index: 50;
     margin-left: 80px;
   }
+  .card-img-top{
+    width:100%;
+    height:auto;
+  }
+  @media screen and (max-width:768px) {
+    img {
+        width:100%;
+    }
+    .container {
+        max-width:100%;
+        width: 100%;
+    }
+    .col-md-3{
+        width:100%;
+        float:left;
+        margin:0;
+    }
+    }
+
+    
