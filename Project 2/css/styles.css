@@ -127,7 +127,7 @@
 
   }
   .back-img{
-    background-image: url(https://media.istockphoto.com/id/1179215846/vector/multicolored-pastel-abstract-background-light-gradient-diffused-white-purple-pink-turquoise.jpg?s=612x612&w=0&k=20&c=e_G8Pm-M2ZPg156CSonD7nJHtiRZcm-YGmI6KE7IeE4=);
+    /* background-image: url(https://media.istockphoto.com/id/1179215846/vector/multicolored-pastel-abstract-background-light-gradient-diffused-white-purple-pink-turquoise.jpg?s=612x612&w=0&k=20&c=e_G8Pm-M2ZPg156CSonD7nJHtiRZcm-YGmI6KE7IeE4=); */
     background-repeat: no-repeat;
     background-size: cover;
    
@@ -152,6 +152,10 @@
         width:100%;
         float:left;
         margin:0;
+    }
+    .card-title{
+        font-size: 20px;
+        width:100%;
     }
     }
 
